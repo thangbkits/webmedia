@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'uvnbaisau';
+					src: url('/wp-content/uploads/useanyfont/2384uvnBaisau.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2384uvnBaisau.woff') format('woff');
+					font-display: auto;
+				}
+
+				.uvnbaisau{font-family: 'uvnbaisau' !important;}
+
+						h1, h2, h3, h4, h5, h6, .entry-title, body.single-post .entry-title, body.page .entry-title, body.category .entry-title, .widget-title, .site-title, .site-description, body, p, blockquote, li, a, strong, b, em, .menu-main-menu-container li a, .menu-main-menu-container li span, #menu-main-menu li a, #menu-main-menu li span, .menu-menu-en-container li a, .menu-menu-en-container li span, #menu-menu-en li a, #menu-menu-en li span{
+					font-family: 'uvnbaisau' !important;
+				}
+		

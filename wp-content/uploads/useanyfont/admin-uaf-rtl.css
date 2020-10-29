@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'uvnbaisau';
+					src: url('/wp-content/uploads/useanyfont/2384uvnBaisau.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2384uvnBaisau.woff') format('woff');
+				}
+
+				.uvnbaisau{font-family: 'uvnbaisau' !important;}
+
+				.et_gf_uvnbaisau{background:none !important;font-family:uvnbaisau;text-indent:0 !important;font-size:25px;}
+
+		

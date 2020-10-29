@@ -1,0 +1,552 @@
+/*
+Theme Name: Dma Child
+Description: This is a child theme for Webwp Theme
+Author: Dxdapp.co
+Template: dma
+Version: 3.12.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header-language-dropdown {
+	line-height: 0;
+    font-size: 14px;
+}
+.header-language-dropdown i {
+	margin-left:10px;
+	margin-top: -4px;
+}
+/* Bg */
+#baogia{
+    border: 2px solid
+    #ccc;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02),0 8px 64px 0 rgba(10,14,29,.08);
+}
+#baogia tr td {
+    font-size: 15px;
+    padding: 6px;
+    color:#333;
+}
+
+#baogia tr td {
+    border-top: 1px solid
+    #ccc;
+    border-right: 1px solid
+    #ccc;
+}
+#baogia tr th:nth-child(1) {
+    font-size: 14px;
+    background-color: #555555;
+}
+#baogia th {
+    padding: 15px;
+}
+#baogia tr th:nth-child(2) {
+    background-color:     #1C5681;
+}
+#baogia tr th:nth-child(3) {
+    background-color:     #176f9f;
+}
+#baogia tr th:nth-child(4) {
+    background-color:     red;
+}
+#baogia tr th:nth-child(5) {
+    background-color:     #faa92b;
+}
+#baogia th {
+    border: 1px solid
+    #333;
+    color:
+            white;
+}
+/**KM */
+#yith-topbar-countdown {
+    height: 46px;
+}
+#yith-topbar-countdown .wrapper_inner img {
+    width: 82px;
+}
+#yith-topbar-countdown .countdown_information {
+    padding-top: 0px;
+}
+#yith-topbar-countdown .wrapper_inner .countdown_button {
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+}
+#yith-topbar-countdown .countdown_button a {
+    color:#523ee8;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+/*  */
+
+.box-badge .box-text{
+    background-color: #007bfc;
+    border-radius: 5px;
+}
+#woocommerce_product_categories-13,#woocommerce_recently_viewed_products-8, #categories-14, #flatsome_recent_posts-17{
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    border-radius: 9px;
+}
+.header .nav-left {
+	margin-left: 10%;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+}
+.footer-1 {
+/*     background: linear-gradient(90deg,
+    #142149,
+    #233ba2); */
+	color: #333;
+    font-size: 1.2rem;
+}
+.footer-1 i {
+	margin-right:10px;
+}
+.footer-1 .is-divider{
+	display:none;
+}
+.footer-1 .widget-title {
+	margin-left: 5%;
+	margin-bottom: 15px
+}
+.footer-1 .col div{
+	margin: 15px 0;
+}
+#block_widget-3 a{
+	color:#333;
+}
+
+.box-category .uppercase {
+    text-transform: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Goi lai */
+.goi_lai {
+    background: linear-gradient(-180deg,#72e336 2%,#77c150 96%);
+    border-radius: 4px;
+    margin-top: 28px;
+    padding: 4px 10px 54px 16px;
+}
+.goi_lai h3 {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.goi_lai .wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-tel {
+    border: none;
+    width: calc(100% - 106px);
+    float: left;
+    height: 39px;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.wpcf7-form{
+    margin-bottom: 0.1em;
+}
+.goi_lai .form-flat button, .goi_lai .form-flat input {
+    border-radius: 4px;
+}
+.goi_lai input[type="submit"], .goi_lai input[type="submit"].button, .goi_lai input[type="submit"], .goi_lai .primary {
+    background: #288ad6;
+    width: 70px;
+    height: 32px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Chi tiet sp - Chonweb.net */
+.product-short-description {
+    margin-bottom: 12px;
+    border-radius: 3px;
+    padding: 5px 5px 0px 5px;
+}
+.anhsp {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+}
+li {
+    margin-bottom: .1em;
+}
+.lien_he_sp ul {
+    list-style: none;
+}
+.hidden-xs.lien_he_sp {
+    width: 100%;
+    padding: 3px 5px 0px 10px;
+    margin-top: 9px;
+    border: #f3535b 1px dotted;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+.show_room {
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+    padding-top: 3px;
+    font-size: 16px;
+    color: #333;
+}
+.lien_he_sp ul li {
+    padding-left: 10px;
+    padding-top: 6px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #333;
+}
+
+.product-thumbnails img{
+    height: 105px;
+    object-fit: cover;
+}
+.h1, h1 {
+    font-size: 1.3em;
+}
+.tt_khuyen_mai{
+    display: block;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: relative;
+    margin: 0px 0px 12px;
+    background: #fff;
+    padding-bottom: 10px;
+}
+.tt_khuyen_mai ul {
+    margin-bottom: 0.1em;
+}
+.tt_khuyen_mai strong {
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    color: #333;
+    padding: 8px 15px 0px 15px;
+    text-transform: uppercase;
+}
+.tt_khuyen_mai ul li{
+    list-style: none;
+}
+.tt_khuyen_mai ul li span {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color:#333;
+    padding: 0 10px 3px 23px;
+    font: 14px/18px Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+}
+.tt_khuyen_mai ul li span::before {
+    content: '';
+    margin-left: -20px;
+    background: url(../webwp/images/checker2x.png);
+    background-size: auto;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    margin-right: 0;
+    float: left;
+    margin-top: 2px;
+}
+.anh_km ul li {
+    padding-left: 0em;
+    margin-left: auto;
+}
+.slides {
+    list-style: none;
+}
+
+.slides img{
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    margin-left: 0px;
+}
+#dat_hang {
+    margin-bottom: 12px;
+}
+#dat_hang span{
+    font-size: 0.9em;
+}
+
+.oder_tragop {
+    display: block;
+    overflow: hidden;
+    margin: 7px auto;
+}
+.oder_tragop .buy_repay {
+    line-height: normal;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 0 0;
+    background: #666;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 48.5%;
+    float: left;
+}
+.oder_tragop span {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    text-transform: none;
+    padding-top: 3px;
+}
+.oder_tragop .tra_gop_the.cw {
+    float: right;
+}
+.oder_tragop .tra_gop_the {
+    line-height: normal;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    margin: 10px 0 0;
+    background: #666;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 48.5%;
+    float: left;
+}
+#dat_hang {
+    display: block;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    margin: 0px;
+    background: #f4f4f4;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+}
+.col-divided {
+    border-right: 0px solid #ececec;
+}
+.quantity + .button {
+    margin-left: 0px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 12px 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: normal;
+    text-transform: none;
+    color: #333;
+    text-align: center;
+    background: linear-gradient(-180deg,#d4d4d4 2%,#d4d4d4 96%);
+}
+.product-summary .quantity {
+    display: none;
+}
+.quantity.buttons_added.form-normal {
+    display: none;
+}
+ul.product_list_widget li img {
+    object-fit: contain;
+}
+/*edit breabcrumb - Webwp.vn*/
+.webwp_breabcrumb {
+    border-bottom: 1px dotted #ececec;
+    margin-bottom: 9px;
+    padding-bottom: 3px;
+}
+.webwp_breabcrumb a{
+    color:     #0092ff;
+    font-weight: normal;
+}
+.entry-content {
+    padding-top: 0em;
+}
+.entry-header-text {
+    padding: 0em;
+    padding-top: 0em;
+}
+
+/*Related post in content - webwp.vn*/
+.list-news {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#related_posts ul {
+    margin:0;
+    overflow:hidden;
+}
+#related_posts li {
+    list-style: none;
+    margin: 0px;
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 0;
+    padding: 0 5px;
+    margin-right: 0 !important;
+    float: left;
+}
+.new-img {
+    height: 110px;
+}
+.new-img a img {
+    height: 100%;
+    object-fit: cover;
+}
+.related_content {
+    padding-top: 10px;
+}
+.relative-post-title, .relative-post-title a {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px !important;
+    height: 60px !important;
+}
+
+#related_posts li a {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    text-decoration:none;
+    width: 100%;
+    margin-bottom: 12px;
+    padding-right: 9px;
+}
+#related_posts img {
+    height: 110px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+#related_posts li a:hover {
+    text-decoration: underline;
+}
+#breabcrumb, .danh-muc ul, .danh-muc ul li, .list-news, .social-share, .tag-meta-post {
+    display: inline-block;
+}
+.tag-meta-post .meta-date-capnhat {
+    padding-left: 2px;
+    padding-right: 6px;
+}
+.tag-meta-post .luot-xem {
+    padding-left: 3px;
+    padding-right: 10px;
+}
+.tag-meta-post {
+    text-transform: none;
+}
+.tag-meta-post, .tag-meta-post a {
+    font-size: 12px;
+    color:     gray;
+    line-height: 1.6;
+}
+.meta-related{
+    display:block;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.meta-related ul li a{
+    color: #0092ff;
+    text-transform: none; }
+.meta-related ul li {
+    font-size: 15px;
+}
+.meta-related ul li a:hover{
+    color: #0072c8;
+}
+.meta-related {
+    background: #e6f4ff;
+    padding: 9px 10px 1px 10px;
+}
+.h2 .section-title-main , h3 .section-title-main {
+    color:     #1b4bb3;
+}
+h5.post-title.is-large {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 48em) {
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
+    /*************** Blog  ***************/
+    #related_posts li a {
+        position: absolute;
+        width: 100px;
+    }
+    .related_content {
+        padding-left: 110px;
+        min-height: 70px;
+        margin-bottom: 10px;
+    }
+    #related_posts li,#related_posts li:first-child {
+        width: 100%;
+    }
+    #related_posts .related_content a{
+        position: absolute;
+        width: 60%;
+    }
+    #related_posts img {
+        height: 68px;
+    }
+    #related_posts li {
+        margin: 0px;
+    }
+    body {
+        padding-top: 0px;
+    }
+    #baogia tr td {
+        font-size: 13px;
+    }
+}
+.text-head2{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #333;
+display:inline;
+	position:relative;
+}
+.text-head2:before{
+	content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #9299EB;
+    right: -20px;
+    /* top: 6px; */
+    bottom: 4px;
+	 animation-duration: 6s;
+  animation-iteration-count: infinite;
+	  animation-name: example;
+}
+@keyframes example {
+   0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red;}
+}
+.mouse{height:50px;width:35px;border-radius:14px;border:2px solid #fff}.mouse:after{content:'';display:block;height:8px;width:2px;margin:10px auto;background:#fff;position:relative;-webkit-animation:a 1.2s ease infinite;animation:a 1.2s ease infinite}.arrow-scroll{width:35px;margin-top:10px}.arrow-scroll>span{font-family:Arial,sans-serif;display:block;width:9px;height:9px;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-right:2px solid #fff;border-bottom:2px solid #fff;margin:-24px auto 3px;-webkit-animation:b 1s infinite;animation:b 1s infinite;-webkit-animation-delay:.2s;animation-delay:.2s}.arrow-scroll>span:first-child{-webkit-animation-delay:.1s;animation-delay:.1s}.arrow-scroll>span:last-child{-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes a{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}to{opacity:0;-webkit-transform:translateY(8px);transform:translateY(8px)}}@keyframes a{0%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}to{opacity:0;-webkit-transform:translateY(8px);transform:translateY(8px)}}@-webkit-keyframes b{0%{opacity:0}50%{opacity:.5}to{opacity:1}}@keyframes b{0%{opacity:0}50%{opacity:.5}to{opacity:1}}
